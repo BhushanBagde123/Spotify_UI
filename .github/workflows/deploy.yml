@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Deploy website
         run: |
-            cd /root/Spotify_UI
+            cd /home/ec2-user/Spotify_UI
 
             git fetch origin
             git reset --hard origin/main
